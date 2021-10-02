@@ -1,0 +1,22 @@
+{
+  "name": "mauriterminal",
+  "version": "1.0.0",
+  "description": "Terminal",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "electron-rebuild"
+  },
+  "author": "Riccardo Zunino",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.0.0"
+  },
+  "dependencies": {
+    "custom-electron-titlebar": "^3.2.7",
+    "electron-rebuild": "^3.2.3",
+    "node-pty": "^0.10.1",
+    "xterm": "^4.14.1",
+    "xterm-addon-fit": "^0.5.0"
+  }
+}
